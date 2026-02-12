@@ -1,0 +1,14 @@
+name: taskhero_server
+description: TaskHero backend server for Firebase Storage + Gemini AI
+version: 1.0.0
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+  shelf_cors_headers: ^0.1.5
+  googleapis_auth: ^1.6.0
+  http: ^1.3.0
+  dart_jsonwebtoken: ^2.14.1
