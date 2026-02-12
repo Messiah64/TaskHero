@@ -1033,7 +1033,7 @@ class _PostTaskScreenState extends State<PostTaskScreen> {
               ),
               ShadButton(
                 leading: Icon(
-                  isPosting ? LucideIcons.loader2 : LucideIcons.check,
+                  isPosting ? LucideIcons.loaderCircle : LucideIcons.check,
                   size: 16,
                 ),
                 child: Text(isPosting ? 'Posting...' : 'Post Task'),
