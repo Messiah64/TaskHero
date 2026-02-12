@@ -1,6 +1,6 @@
 # 🦸 TaskHero — Campus Task Marketplace
 
-> **Where SUTD students become each other's heroes, one task at a time!** ⚡
+> **Where SUTD students and staff become each other's heroes, one task at a time!** ⚡
 
 [![Live](https://img.shields.io/badge/🌐_Live-taskhero--sutd.web.app-orange)](https://taskhero-sutd.web.app)
 [![Flutter Web](https://img.shields.io/badge/Flutter-Web-02569B?logo=flutter)](https://flutter.dev)
@@ -11,7 +11,7 @@
 
 ## 🤔 What is TaskHero?
 
-TaskHero is a **real-time campus task marketplace** for students at the **Singapore University of Technology and Design (SUTD)**. Need someone to pick up lunch from the canteen? Want a quick Python tutoring session? Too lazy to collect your parcel? 📦
+TaskHero is a **real-time campus task marketplace** for students and staff at the **Singapore University of Technology and Design (SUTD)**. Need someone to pick up lunch from the canteen? Want a quick Python tutoring session? Too lazy to collect your parcel? 📦
 
 **Post it. A hero will grab it.** 🦸‍♂️
 
@@ -312,7 +312,7 @@ You: "I need someone to buy me bubble tea from the canteen, I'm in hostel room 4
 
 ## 📄 License
 
-This project was built for SUTD coursework. All rights reserved.
+This project was built for SUTD Build For Campus Hackathon.
 
 ---
 
