@@ -1,163 +1,173 @@
-# TaskHero — 3 Minute Pitch Script
+# TaskHero — 2 Min Talk + 1 Min Demo Pitch Script
 
-> **Total time:** 3 min talking + 1 min live demo after Slide 4
-> **Pace:** Confident, punchy, no filler. You're not pitching an idea — you're presenting a deployed product.
-
----
-
-## SLIDE 1 — Title (15 sec)
-
-**[Walk up. Pause. Make eye contact.]**
-
-> "How many of you have sent a message in a Telegram group asking for help with something — buying food, finding a tutor, selling your old iPad — and it just... got buried?"
->
-> "That's the problem. And this — is **Task Hero**."
->
-> "A live, deployed app. Not a prototype. Not a Figma mockup. You can open it on your phone right now — **taskhero-sutd.web.app**."
+> **Format:** 2 min speaking (slides 1-4, then 5-9 after demo) + 1 min live demo after slide 4
+> **Rule:** Every sentence either states a problem, proves a number, or closes a sale. No filler.
 
 ---
 
-## SLIDE 2 — The Problem (25 sec)
+## SLIDE 1 — Title (10 sec)
 
-> "Campus life creates constant micro-needs. Every single day. But there is **zero** infrastructure to serve them."
+**[Walk up. Don't introduce yourself. Start with the problem.]**
+
+> "Right now, there are students on this campus who need food delivered, help with their code, a parcel picked up — and the only option they have is to spam a Telegram group and **hope** someone sees it."
 >
-> "We polled 97 students and 54 staff. **98%** of students said Telegram is overbloated — their requests drown in noise. **95%** of staff said they can't reach the right audience. Emails don't get read."
->
-> "Think about that. Almost every person on this campus has a need they can't efficiently fulfill. And almost every person on this campus is willing to help — **if only they knew someone needed it**."
+> "We built the fix. It's live. You can open it right now."
 
 ---
 
-## SLIDE 3 — The Market (20 sec)
+## SLIDE 2 — The Problem (15 sec)
 
-> "So we ran the numbers. Yesterday. On this campus."
+> "We surveyed **97 students** and **54 staff** on this campus."
 >
-> "**1,000** students. **98%** facing unmet micro-needs. **670** pending tasks per week if you map out what people actually need. That's over **$6,000** in latent demand — **every single week** — just at SUTD."
+> "**98%** of students said Telegram is overbloated for requests — messages get buried in minutes. **95%** of staff said they can't reach the right audience at all — emails go unread."
 >
-> "Now imagine NUS. NTU. SMU. **40,000 students across Singapore.** This is not a side project. This is a market waiting for structure."
+> "Campus micro-needs are **universal**. The infrastructure to serve them is **nonexistent**."
+
+---
+
+## SLIDE 3 — The Market (15 sec)
+
+> "We ran the numbers. **Yesterday.** On this campus alone."
+>
+> "1,000 students. **670 pending micro-tasks** per week. That's over **$6,000 in latent demand every week** — just at SUTD."
+>
+> "Scale that to NUS, NTU, SMU — **40,000 students** — and you're looking at **$240K weekly** in unstructured campus demand that nobody is capturing."
 
 ---
 
 ## SLIDE 4 — The Solution (20 sec)
 
-> "Task Hero. **Powered by AI. Built for community.**"
+> "**Task Hero.** Powered by AI. Built for community."
 >
-> "The concept is dead simple. **Post a Task. A Hero grabs it. They get paid. That's it.**"
+> "**Post a task. A hero grabs it. They get paid. That's it.**"
 >
-> "Three things make us different. **Micro Need** — we cater to everyone, for everything. From buying kopi to finding a co-founder. **10 seconds** — that's how fast you go from idea to posted task, thanks to AI. And **Tidy** — clean, intuitive, no learning curve."
+> "What makes this different from everything else? Three things."
 >
-> "But don't take my word for it. Let me show you."
+> "**One** — it handles every micro-need. Not just food, not just tutoring. Buy kopi. Find a co-founder. Sell your iPad. One platform."
+>
+> "**Two** — AI does the work. Speak your task into your phone — our AI structures it, prices it, categorises it in **10 seconds**."
+>
+> "**Three** — real-time tracking. Both parties see live progress. No chasing. No ghosting."
+>
+> "Let me show you."
+
+**[Switch to live demo]**
 
 ---
 
-## 🖥️ LIVE DEMO (1 min)
+## LIVE DEMO (60 sec)
 
-**[Switch to taskhero-sutd.web.app on your phone/laptop]**
+**[Have taskhero-sutd.web.app pre-loaded and logged in. Phone mirrored to projector or laptop ready.]**
 
-**Demo flow (practice this to 60 seconds exactly):**
-
-1. **Login** — "One-click Google Sign-In. You're in." *(3 sec)*
-2. **Dashboard** — "Live stats. Active missions. Weekly activity. All real-time from Firestore." *(5 sec)*
-3. **Post Task (VOICE)** — Hit record, say: *"I need someone to buy me a chicken rice from the canteen, I'm in Building 2 level 5"* → Stop → Show Deepgram transcribing → Show AI formatting → **"10 seconds. From voice to a fully structured task."** *(25 sec)*
-4. **Browse** — "Every task is live. Filter by category, sort by price. Heroes pick what they want." *(7 sec)*
-5. **Task Detail** — Click a task → "Both parties see live progress. Real-time. No refresh. Poster and Hero are always in sync." *(10 sec)*
-6. **Post it** — Click Post Task → "And it's live. Right now. On a deployed app that anyone on this campus can use **today**." *(10 sec)*
+| Step | What You Do | What You Say | Time |
+|------|------------|--------------|------|
+| 1 | Show dashboard | "Logged in. Live dashboard — earnings, tasks, activity. All real-time." | 5s |
+| 2 | Tap Post Task | "Let me create a task." | 2s |
+| 3 | Tap Record mic | *Say: "Can someone buy me a chicken rice from the canteen, I'm in building 2 level 5"* | 8s |
+| 4 | Tap Stop | "Deepgram transcribes it..." *(wait for text)* | 5s |
+| 5 | Tap Format with AI | "GPT-4o-mini structures it..." *(wait for card)* | 8s |
+| 6 | Show AI preview | "Title, category, location, suggested price — all generated. **10 seconds from voice to structured task.**" | 7s |
+| 7 | Tap Post Task | "Posted. It's live on the marketplace right now." | 3s |
+| 8 | Switch to Browse | "Every open task, filterable by category. Heroes pick what suits them." | 5s |
+| 9 | Tap a task card | "Task detail — real-time progress tracker. Both poster and hero see this. Status updates instantly. No refresh." | 8s |
+| 10 | Pause | "This is not a prototype. This is deployed. **Anyone in this room can open it right now.**" | 9s |
 
 **[Switch back to slides]**
 
 ---
 
-## SLIDE 5 — Product Screenshot (10 sec)
+## SLIDE 5 — Product + Tech (10 sec)
 
-> "What you just saw isn't a demo environment. That **is** the product. Flutter web, deployed on Firebase Hosting, running OpenAI and Deepgram in production."
->
-> "Every screen you saw is powered by 7 live Firestore streams. Every interaction is real."
+> "Built entirely in **Flutter** — one codebase, runs on every device. Firebase Firestore for real-time data. OpenAI and Deepgram in production. Shipped in **under 24 hours**."
 
 ---
 
-## SLIDE 6 — Competitive Position (15 sec)
+## SLIDE 6 — Why Not The Others (15 sec)
 
-> "Now — why not just use what exists? WhatsApp, Telegram, Fiverr, Carousell?"
+> "Why not Telegram? **No structure.** Your request drowns in 200 messages. No tracking, no accountability, no payment."
 >
-> "Those platforms weren't built for campus. Fiverr is for freelancers. Carousell is for selling stuff. Telegram is for chatting. **None of them structure micro-needs. None of them use AI to format your request. None of them give you real-time task tracking between two parties on the same campus.**"
+> "Why not Fiverr? Built for freelancers with portfolios, not a student who needs kopi in 10 minutes."
 >
-> "Task Hero takes what's scattered across four platforms and puts it in one purpose-built place."
+> "Why not Carousell? It's for **selling things**, not getting things done."
+>
+> "Task Hero is the only platform that **structures micro-needs, uses AI to remove friction, and tracks fulfillment in real-time** — built specifically for campus."
 
 ---
 
-## SLIDE 7 — Traction & Feedback (15 sec)
+## SLIDE 7 — Validation (10 sec)
 
-> "We've already tested this. Voice-to-posted task — **under 10 seconds**. Top categories from our user tests: Food & Delivery, Academic Help, and Errands. Exactly what you'd expect on a campus."
+> "Voice to posted task: **under 10 seconds**. Top categories: Food, Academic Help, Errands — exactly what campuses need."
 >
-> "And the feedback? *'Finally makes asking for help not awkward.'* *'I'd use this every day — especially during finals.'* *'The AI pricing is surprisingly accurate.'*"
->
-> "This solves a real need. People feel it."
+> "User feedback: *'Finally makes asking for help not awkward.'* *'I'd use this every day during finals.'*"
 
 ---
 
-## SLIDE 8 — Why This Is Real (15 sec)
+## SLIDE 8 — This Is Real (10 sec)
 
-> "Let me be clear about something. **This is not a prototype.**"
+> "Deployed at taskhero-sutd.web.app. **7 real-time Firestore streams.** Zero infrastructure cost. **5% platform fee already in the codebase** — monetisation works from day one."
 >
-> "Deployed at taskhero-sutd.web.app — live right now. **7 real-time Firestore streams** powering every screen. Built and shipped in **under 24 hours**. Zero infrastructure cost at current scale. And the **5% platform fee** is already baked into the codebase — monetization is live on day one."
->
-> "We're not asking you to imagine what this could be. We're showing you what it **is**."
+> "We're not pitching a vision. We're demoing a product."
 
 ---
 
-## SLIDE 9 — What's Next / Campus Domination (25 sec)
+## SLIDE 9 — Campus Domination (15 sec)
 
-> "Here's the roadmap."
+> "Phase 1 — polish. Notifications, chat, reputation system."
 >
-> "**Phase 1 — Polish.** Push notifications, in-app chat, reputation scores. The things that make users sticky."
+> "Phase 2 — intelligence. AI matches tasks to the right hero by location, skill, and availability."
 >
-> "**Phase 2 — Intelligence.** AI matching — recommending tasks to the right heroes based on location, skills, availability. Hyper-personalization."
+> "Phase 3 — **scale**. NUS. NTU. SMU. Every campus in Singapore. Revenue from transaction fees, SaaS licences, and a premium AI tier."
 >
-> "**Phase 3 — Scale.** NUS. NTU. SMU. Every campus in Singapore. Same model, bigger network."
->
-> "Revenue? **Transaction fees** on every task. **SaaS licences** for campus-wide access. **Premium AI tier** for power users. The business model scales with the user base."
->
-> "From side gigs, to co-founder matching, to campus errands — Task Hero is the **structured layer** for the largest unmet need in student life: **micro-needs that nobody's building for.** Until now."
+> "From campus errands to side gigs to co-founder matching — **Task Hero is the structured layer for the largest unmet need in student life.** And it's live. Right now."
 
 ---
 
-## CLOSING — (5 sec)
+## CLOSING (5 sec)
 
-> **"Task Hero. Live. Deployed. Ready for every campus in Singapore."**
->
-> "Thank you."
+> **"Task Hero. Deployed. Production-ready. And we're just getting started."**
 
-**[Hold. Don't rush off. Let it land.]**
+**[Hold eye contact. Don't say thank you. Let it land.]**
 
 ---
 
-## ⏱️ Timing Cheat Sheet
+## ⏱️ TIMING — Precision Breakdown
 
-| Slide | Content | Time |
-|-------|---------|------|
-| 1 | Title + hook | 15s |
-| 2 | Problem | 25s |
-| 3 | Market | 20s |
-| 4 | Solution intro | 20s |
-| — | **LIVE DEMO** | **60s** |
-| 5 | Product screenshot | 10s |
-| 6 | Competition | 15s |
-| 7 | Traction/feedback | 15s |
-| 8 | Why this is real | 15s |
-| 9 | Roadmap + close | 30s |
-| | **TOTAL** | **~3:45** |
+| Slide | Seconds | Cumulative |
+|-------|---------|-----------|
+| 1 — Title/Hook | 10s | 0:10 |
+| 2 — Problem | 15s | 0:25 |
+| 3 — Market | 15s | 0:40 |
+| 4 — Solution | 20s | 1:00 |
+| **DEMO** | **60s** | **2:00** |
+| 5 — Tech | 10s | 2:10 |
+| 6 — Competition | 15s | 2:25 |
+| 7 — Validation | 10s | 2:35 |
+| 8 — Why it's real | 10s | 2:45 |
+| 9 — Roadmap + close | 15s | **3:00** |
 
-> **Buffer:** You have ~15 sec of slack. If demo runs long, cut Slide 5 (the screenshot slide is redundant after a live demo). If you're ahead of time, breathe more on Slide 9.
+> **Exactly 3:00.** If demo runs 10s over, shave Slide 7 to just one quote.
 
 ---
 
-## 🎯 Rubric Alignment Cheat Sheet
+## 🎯 RUBRIC HIT MAP
 
-| Criteria (Weight) | Where You Nail It |
-|---|---|
-| **Problem Understanding (30%)** | Slides 2-3: Survey data (98% students, 95% staff), $6K latent demand, 670 tasks/week |
-| **Innovation & Creativity (25%)** | Slide 4 + Demo: Voice-to-task AI pipeline, 10-second creation, real-time streams |
-| **Feasibility & Viability (20%)** | Slide 8: Deployed NOW, zero infra cost, 5% fee already in code, 24-hour build |
-| **Impact & Relevance (15%)** | Slide 9: Multi-campus scale, 40K students in Singapore, 3 revenue streams |
-| **User Experience (5%)** | Demo: Responsive UI, voice UX, real-time updates, ShadCN polish |
-| **Presentation (5%)** | Opening hook, live demo, confident close |
-| **Flutter Bonus** | Slide 5: Built entirely in Flutter Web — mention it explicitly |
+| Criteria | Weight | Where You Crush It | Killer Line |
+|----------|--------|-------------------|-------------|
+| **Problem Understanding** | **30%** | Slides 2-3 | "98% of students, 95% of staff. $6K/week latent demand — just SUTD alone" |
+| **Innovation & Creativity** | **25%** | Slide 4 + Demo | "10 seconds from voice to structured task. AI prices it, categorises it, locates it" |
+| **Feasibility & Viability** | **20%** | Slide 8 | "Deployed right now. 5% fee in the codebase. Zero infra cost. Not a prototype" |
+| **Impact & Relevance** | **15%** | Slides 3 + 9 | "$240K weekly unstructured demand across SG campuses. Phase 3: every campus" |
+| **User Experience** | **5%** | Demo | Voice-first UX, responsive mobile + desktop, real-time updates — they see it live |
+| **Presentation** | **5%** | Structure | Problem → numbers → solution → LIVE PROOF → competition kill → scale |
+| **Flutter Bonus** | **+** | Slide 5 | "Built entirely in Flutter — one codebase, every device" |
+
+---
+
+## 🔥 PRE-PITCH CHECKLIST
+
+- [ ] App pre-loaded at taskhero-sutd.web.app, **already logged in**
+- [ ] Phone/laptop mirrored to projector and tested
+- [ ] Mic permissions already granted in browser (test record once before)
+- [ ] One existing task visible in Browse (so you can tap into task detail)
+- [ ] Speak clearly into mic — don't rush the voice recording
+- [ ] **Practice the demo 5 times** — it's 60% of your score impact
