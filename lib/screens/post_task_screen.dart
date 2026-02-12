@@ -20,6 +20,7 @@ class _PostTaskScreenState extends State<PostTaskScreen> {
   bool isRecording = false;
   bool isTranscribing = false;
   bool isProcessing = false;
+  bool isPosting = false;
   bool showPreview = false;
   String? aiError;
   int recordingSeconds = 0;
@@ -158,6 +159,10 @@ class _PostTaskScreenState extends State<PostTaskScreen> {
   final FirestoreService _firestoreService = FirestoreService();
 
   Future<void> _postTask() async {
+    // Guard against double-tap / multiple submissions
+    if (isPosting) return;
+    setState(() => isPosting = true);
+
     try {
       // Parse category from AI preview
       final categoryStr = aiPreview['category']?.toString() ?? 'errands';
@@ -239,6 +244,7 @@ class _PostTaskScreenState extends State<PostTaskScreen> {
         showPreview = false;
         isRecording = false;
         isProcessing = false;
+        isPosting = false;
         recordingSeconds = 0;
         aiPreview = {};
         aiError = null;
@@ -247,6 +253,7 @@ class _PostTaskScreenState extends State<PostTaskScreen> {
     } catch (e) {
       print('[PostTask] Error creating task: $e');
       if (!mounted) return;
+      setState(() => isPosting = false);
       ShadToaster.of(context).show(
         ShadToast.destructive(
           title: const Text('Failed to post task'),
@@ -1025,9 +1032,12 @@ class _PostTaskScreenState extends State<PostTaskScreen> {
                 }),
               ),
               ShadButton(
-                leading: const Icon(LucideIcons.check, size: 16),
-                child: const Text('Post Task'),
-                onPressed: _postTask,
+                leading: Icon(
+                  isPosting ? LucideIcons.loader2 : LucideIcons.check,
+                  size: 16,
+                ),
+                child: Text(isPosting ? 'Posting...' : 'Post Task'),
+                onPressed: isPosting ? null : _postTask,
               ),
             ],
           ),
